@@ -1,0 +1,6 @@
+.center{
+    text-align: center;
+}
+.boxshadow{
+    box-shadow: 0 0 20px rgb(0 0 0 / 50%), 0 0 5px rgb(0 0 0 / 5%);
+}

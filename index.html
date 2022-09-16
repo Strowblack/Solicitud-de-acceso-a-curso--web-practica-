@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  
+<body >
+    <div class="container w-75 pt-2 bg-white boxshadow pb-3">
+      <div>
+        <h3 class="center">Solicitud de alta para academia que oferta estudios</h3>
+      </div>
+      <form class="pt-3">
+        <div class="form-group">
+          <label for="exampleInputEmail1">Alumno:</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+            placeholder="Nombre alumno">
+        </div>
+        <div class="row">
+          <div class="form-group col">
+            <label for="Curso">Curso:</label>
+            <input type="text" class="form-control" id="Curso" placeholder="Curso">
+          </div>
+          <div class="form-group col">
+            <label for="Edad">Edad:</label>
+            <input type="text" class="form-control" id="Edad" placeholder="Edad">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="Nombre del tutor">Nombre del padre/madre/tutor:</label>
+          <input type="text" class="form-control" id="Nombre del tutor" placeholder="Nombre del tutor">
+        </div>
+        <div class="form-group">
+          <label for="Telefono">Telefono</label>
+          <input type="text" class="form-control" id="Telefono" placeholder="Telefono">
+        </div>
+        <div class="form-check pt-3 pb-4">
+          <h4>Sexo:</h4>
+          <div class="row">
+            <div class="col">
+              <div class="row">
+                <div class="col">
+                  <input type="radio" id="hombre" value="hombre" name="sexo"><label for="hombre">Hombre</label><br>
+                  <input type="radio" id="mujer" value="mujer" name="sexo"><label for="mujer">Mujer</label><br>
+                </div>
+                <div class="col">
+                  <input type="radio" id="helicoptero" value="helicoptero apache" name="sexo"><label
+                    for="helicoptero">Bell YAH-63</label><br>
+                  <input type="radio" id="no" value="no deseo decirlo" name="sexo"><label for="no">No deseo
+                    decirlo</label><br>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="float-right pr-5">
+                <input type="checkbox" class="form-check-input" id="">
+                <label class="form-check-label" data-toggle="modal" data-target="#modelId">Acepto los
+                  términos y condiciones</label>
+  
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="pl-2"><button type="submit" class="btn btn-success ">Enviar</button></div>
+      </form>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
+    <!-- Modal -->
+    <div class="modal fade" id="modelId" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <h2 class="modal-title text-center ah">Ley de términos y condiciones</h2>
+          <div class="modal-body ah">
+            <form method="post" action="#" class="bg-white border rounded p-3">
+              <h4><strong>Sobre nosotros</strong></h4>
+              <p>El Servicio ofrecido por el Titular permite al Usuario acceder a documentos legales para actividades
+                online (por ejemplo, sitios web, aplicaciones móviles, etc.) de forma independiente sobre la base de la
+                información indicada por el propio Usuario, utilizando una serie de herramientas tecnológicas. Además, el
+                Titular ofrece un servicio de generación, almacenamiento y actualización online de uno o más modelos de
+                documentos. Se excluye cualquier asistencia a los Usuarios en el procedimiento de elección de cláusulas o
+                en la redacción de cláusulas personalizadas por parte del personal o cualquier consultor.
+                Por tanto, es responsabilidad exclusiva del Usuario elegir las cláusulas adecuadas a una situación o
+                actividad concreta, para verificar la conformidad de los documentos generados con la legislación vigente,
+                así como para cumplir con todas las disposiciones legales aplicables a la actividad.
+                Teniendo en cuenta lo anterior, el Servicio ofrecido por iubenda no puede ser considerado, ni reemplaza el
+                asesoramiento legal ofrecido por un consultor o experto.</p>
+              <h4> <strong>Creación de los documentos</strong></h4>
+  
+              <p>
+                Durante el proceso de generación de los documentos, es responsabilidad exclusiva de los Usuarios realizar
+                las elecciones adecuadas según su caso o actividad concreta y posteriormente verificar que los documentos
+                generados cumplan con las disposiciones legales aplicables. iubenda no proporciona ninguna ayuda a este
+                respecto. Las instrucciones y consejos dentro del generador tienen el único propósito de facilitar el uso
+                del propio generador por parte de los Usuarios y no contienen ninguna información relacionada con uno o
+                más contextos específicos.
+              </p>
+  
+            </form>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
